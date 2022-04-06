@@ -4,7 +4,7 @@ import pandas as pd
 
 path = os.getcwd()  # 当前文件所在路径
 filetype = '.dat'  # 指定文件类型
-NEDOS=3000
+NEDOS=3000 # 对应VASP中的参数设置
 
 
 def get_filename(path, filetype):
